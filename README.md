@@ -1,0 +1,2 @@
+# GoBackN
+The client transfers a single file to the server's local directory.It begins with reading chunks of data from a file and sending them as packets to the server that acknowledges the packets received. The catch is that the client program can send multiple packets to the server without waiting for an acknowledgment but is constrained to maintain a window of size N over a range of sequence numbers of unacknowledged packets.
